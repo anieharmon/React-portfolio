@@ -2,16 +2,7 @@ import React from "react";
 import Project from "./Project";
 
 const projects = [
-  {
-    id: 0,
-    title: "PocketTraders",
-    languages: "react, jsx, css, js",
-    packages: "apollo-server-express, bcrypt, Express.js, graphql, if-env, jsonwebtoken, mongoose, nodemon, react-confirm-alert, react-popup-alert, uuid, concurrently",
-    image: "/img/pocket-traders.png",
-    description: "Allows you to trade pokemon and create a team. I did the design and front end!",
-    repo: "https://github.com/dbottoni/PokeTrader",
-    live: "https://pocket-traders.herokuapp.com/",
-  },
+
   {
     id: 1,
     title: "TechTopics",
@@ -30,21 +21,12 @@ const projects = [
     image: "/img/Codingquiz.png",
     description: "Allows instructors to quickly create quizzes and print the quiz to a PDF to distribute to their students, as well as keep a copy for themselves with the answer key!",
     live: "https://quizam.herokuapp.com/",
-    repo: "https://github.com/EmilyNecciai/quizam",
+  
   },
-  {
-    id: 3,
-    title: "noheadphones",
-    languages: "html, css, js",
-    image: "/img/noheadphones.png",
-    packages: "none",
-    description: "Gives you a recommendation for media that will entertain you during your commute.",
-    repo: "https://github.com/EmilyNecciai/no-headphones",
-    live: "https://emilynecciai.github.io/no-headphones/",
-  },
+  
   {
     id: 4,
-    title: "Duly Noted - Note Taker App",
+    title: "Note Taker App",
     languages: "html, css, js",
     packages: "Express.js, Generate Unique IDs",
     image: "/img/note-taker.png",
@@ -52,16 +34,7 @@ const projects = [
     repo: "https://github.com/anieharmon/Note-Taker",
 
   },
-  {
-    id: 5,
-    title: "Basic Portfolio",
-    languages: "html, css",
-    packages: "none",
-    image: "/img/work-portfolio.png",
-    description: "A basic work portfolio that holds my projects for the full stack development class.",
-    repo: "https://github.com/EmilyNecciai/work-portfolio",
-    live: "https://emilynecciai.github.io/work-portfolio/",
-  },
+  
   {
     id: 6,
     title: "Weather Dashboard",
@@ -69,8 +42,8 @@ const projects = [
     packages: "none",
     image: "/img/weather-app.png",
     description: "A basic app that allows you to see the weather for a specific searched or saved city.",
-    repo: "https://github.com/EmilyNecciai/weather-app",
-    live: "https://emilynecciai.github.io/weather-app/",
+    repo: "https://github.com/anieharmon/Weather-Dashboard",
+    live: "http://127.0.0.1:5500/Weather-Dashboard/index.html",
   },
 ];
 
